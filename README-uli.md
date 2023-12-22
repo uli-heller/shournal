@@ -18,7 +18,7 @@ DEB-Paket bauen
 
 - `cd build`
 
-- `cmake -DSHOURNAL_EDITION=full ..`
+- `cmake -DSHOURNAL_EDITION=full -DCMAKE_INSTALL_PREFIX=/usr ..`
 
 - `make`
 
