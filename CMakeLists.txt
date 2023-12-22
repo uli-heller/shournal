@@ -7,7 +7,7 @@ endif()
 # version applies to all released files: shournal, shournal-run, libshournal-shellwatch.so
 # and shell-integration-scripts (e.g. integration_ko.bash)
 set(shournal_version_base "3.1")
-set(shournal_version_suffix "-0dp01~generic")
+set(shournal_version_suffix "-0dp02~generic")
 set(shournal_version "${shournal_version_base}${shournal_version_suffix}")
 
 cmake_policy( SET CMP0048 NEW )
