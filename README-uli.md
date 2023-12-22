@@ -20,7 +20,9 @@ DEB-Paket bauen
 
 - `cmake -DSHOURNAL_EDITION=full ..`
 
-- `cpack -G DEB`
+- `make`
+
+- `cpack -G DEB` -> erzeugt shournal_3.1-0dp01~generic_amd64.deb
 
 Neue Upstream-Version einbinden
 -------------------------------
