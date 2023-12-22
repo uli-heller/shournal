@@ -7,7 +7,7 @@ DEB-Paket bauen
 - Einmalig: Zusatzpakete installieren
 
   - Ubuntu: `sudo apt-get install -y g++ cmake make qtbase5-dev libqt5sql5-sqlite uuid-dev libcap-dev uuid-runtime linux-headers-generic dkms`
-  - Ubuntu HWE: `sudo apt-get install -y install g++ cmake make qtbase5-dev libqt5sql5-sqlite uuid-dev libcap-dev uuid-runtime linux-headers-generic-hwe-$(lsb_release -rs) dkms`
+  - Ubuntu HWE: `sudo apt-get install -y g++ cmake make qtbase5-dev libqt5sql5-sqlite uuid-dev libcap-dev uuid-runtime linux-headers-generic-hwe-$(lsb_release -rs) dkms`
 
 - [CMakeLists.txt](CMakeLists.txt) sichten
 
